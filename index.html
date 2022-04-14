@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill With Love</title>
+    <link rel="icon" href="./assets/img/icon.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- anymore solo money only crazy gone you -->
+    <div class="player">
+        <div class="dashboard">
+            <div class="header">
+                <div class="back">
+                    <ion-icon name="chevron-back"></ion-icon>
+                </div>
+                <h4>PLAYING NOW</h4>
+                <div class="playlist-btn">
+                    <ion-icon name="musical-note"></ion-icon>
+                </div>
+            </div>
+            <div class="cd">
+                <div class="cd-thumb"></div>
+            </div>
+            <div class="info-song">
+                <h2 class="current-song-name"></h2>
+                <p class="current-singer-name"></p>
+            </div>
+
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <div class="song-timer">
+                <span class="current"></span>
+                <span class="duration"></span>
+            </div>
+
+            <div class="control">
+                <div class="btn btn-repeat">
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                    <i class="fas fa-pause icon-pause"></i>
+                    <i class="fas fa-play icon-play"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="btn btn-random">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>        
+            
+            <audio id="audio" src=""></audio>       
+        </div>
+        <div class="playlist">
+            <div class="playlist-header">
+                <h4>PLAYLIST</h4>
+                <div class="close-playlist">
+                    <ion-icon name="close"></ion-icon>
+                </div>
+            </div>
+            <div class="list-song">
+                <!-- <div class="song">
+                    <div class="thumb" style="background-image: url('./assets/img/3107.jpg')"></div>
+                    <div class="body">
+                        <h3 class="title">solo</h3>
+                        <p class="author">jennie</p>
+                    </div>
+                    <audio class="music-${index}" src="${song.path}"></audio>
+                    <span id="time-${index}">3:40</span>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
