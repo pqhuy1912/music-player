@@ -2,68 +2,68 @@ var songs = [
     {
         name: 'Anhs & Ems',
         singer: 'QNT, RZMAS, WXRDIE',
-        path: '../music/anhsems.mp3',
-        image: '../img/anhsems.jpg'
+        path: '../assets/music/anhsems.mp3',
+        image: '../assets/img/anhsems.jpg'
     },
     {
         name: 'Ái Nộ',
         singer: 'Masew, Khôi Vũ',
-        path: '../music/aino.mp3',
-        image: '../img/aino.jpg'
+        path: '../assets/music/aino.mp3',
+        image: '../assets/img/aino.jpg'
     },
     {
         name: 'Phi Hành Gia',
         singer: 'Renja, Slow T, Lil Wuyn, Sugar Cane',
-        path: '../music/phihanhgia.mp3',
-        image: '../img/phihanhgia.jpg'
+        path: '../assets/music/phihanhgia.mp3',
+        image: '../assets/img/phihanhgia.jpg'
     },
     {
         name: 'Sugar',
         singer: 'RPT JasonDilla, RPT Orijinn',
-        path: '../music/sugar.mp3',
-        image: '../img/sugar.jpg'
+        path: '../assets/music/sugar.mp3',
+        image: '../assets/img/sugar.jpg'
     },
     {
         name: 'Tay To',
         singer: 'MCK, RPT PhongKhin',
-        path: '../music/tayto.mp3',
-        image: '../img/tayto.jpg'
+        path: '../assets/music/tayto.mp3',
+        image: '../assets/img/tayto.jpg'
     },
     {
         name: 'Bật Nhạc Lên',
         singer: 'HIEUTHUHAI, Harmonie',
-        path: '../music/batnhaclen.mp3',
-        image: '../img/batnhaclen.jpg'
+        path: '../assets/music/batnhaclen.mp3',
+        image: '../assets/img/batnhaclen.jpg'
     },
     {
         name: 'Lời Đường Mật',
         singer: 'Lyly, HIEUTHUHAI',
-        path: '../music/loiduongmat.mp3',
-        image: '../img/loiduongmat.jpg'
+        path: '../assets/music/loiduongmat.mp3',
+        image: '../assets/img/loiduongmat.jpg'
     },
     {
         name: 'Crush 2',
         singer: 'W/n, Tez, Tiên',
-        path: '../music/crush2.mp3',
-        image: '../img/crush2.jpg'
+        path: '../assets/music/crush2.mp3',
+        image: '../assets/img/crush2.jpg'
     },
     {
         name: 'Tương 3+1',
         singer: 'W/n, Titie',
-        path: '../music/tuong31.mp3',
-        image: '../img/tuong31.jpg'
+        path: '../assets/music/tuong31.mp3',
+        image: '../assets/img/tuong31.jpg'
     },
     {
         name: '3107',
         singer: 'W/n, Nâu, Duongg',
-        path: '../music/3107.mp3',
-        image: '../img/3107.jpg'
+        path: '../assets/music/3107.mp3',
+        image: '../assets/img/3107.jpg'
     },
     {
         name: 'Cưới Thôi',
         singer: 'Masew, Bray, Tap',
-        path: '../music/cuoithoi.mp3',
-        image: '../img/cuoithoi.jpg'
+        path: '../assets/music/cuoithoi.mp3',
+        image: '../assets/img/cuoithoi.jpg'
     },
 ]
 
